@@ -1,0 +1,11 @@
+{
+  "short_name": "Jordan Savage Portfolio",
+  "name": "Jordan C Savage Portfolio Site",
+  "icons": [
+    
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

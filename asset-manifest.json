@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/jordansavage/static/css/main.14375376.chunk.css",
+    "main.js": "/jordansavage/static/js/main.aac67e1c.chunk.js",
+    "main.js.map": "/jordansavage/static/js/main.aac67e1c.chunk.js.map",
+    "runtime-main.js": "/jordansavage/static/js/runtime-main.087b19f9.js",
+    "runtime-main.js.map": "/jordansavage/static/js/runtime-main.087b19f9.js.map",
+    "static/js/2.9eb0a1bd.chunk.js": "/jordansavage/static/js/2.9eb0a1bd.chunk.js",
+    "static/js/2.9eb0a1bd.chunk.js.map": "/jordansavage/static/js/2.9eb0a1bd.chunk.js.map",
+    "index.html": "/jordansavage/index.html",
+    "precache-manifest.be31d908cd9c43e73a43838ab66dfbbe.js": "/jordansavage/precache-manifest.be31d908cd9c43e73a43838ab66dfbbe.js",
+    "service-worker.js": "/jordansavage/service-worker.js",
+    "static/css/main.14375376.chunk.css.map": "/jordansavage/static/css/main.14375376.chunk.css.map",
+    "static/js/2.9eb0a1bd.chunk.js.LICENSE.txt": "/jordansavage/static/js/2.9eb0a1bd.chunk.js.LICENSE.txt",
+    "static/media/ACEAScreenshot.png": "/jordansavage/static/media/ACEAScreenshot.37240efc.png",
+    "static/media/headshot.jpg": "/jordansavage/static/media/headshot.25790698.jpg",
+    "static/media/jordancsavageresume.pdf": "/jordansavage/static/media/jordancsavageresume.d161007f.pdf",
+    "static/media/orgadmin.png": "/jordansavage/static/media/orgadmin.541bac53.png",
+    "static/media/otc.png": "/jordansavage/static/media/otc.deed9da2.png",
+    "static/media/piazza.png": "/jordansavage/static/media/piazza.97f22ce5.png",
+    "static/media/tspimage.png": "/jordansavage/static/media/tspimage.a50bd01c.png",
+    "static/media/uofm.jpg": "/jordansavage/static/media/uofm.cb113d50.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.087b19f9.js",
+    "static/js/2.9eb0a1bd.chunk.js",
+    "static/css/main.14375376.chunk.css",
+    "static/js/main.aac67e1c.chunk.js"
+  ]
+}
