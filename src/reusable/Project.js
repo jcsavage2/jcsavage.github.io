@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React  from 'react';
 // import './Project.css';
 
 // Material UI imports
@@ -9,12 +9,8 @@ const useStyles = makeStyles({
         margin: '0',
     },
     container:{
-        // boxShadow: '0 0 10px black',
-        padding: '3rem',
+        padding: '1.5rem',
         width: '60rem',
-        // border: '1px solid black',
-        // backgroundColor: 'rgba(171, 183, 183, .4)',
-        
     },
     leftContainer:{
         display: 'inline-block',
@@ -83,17 +79,13 @@ function Project(props){
                             className={`${classes.imgCont}`}
                             onClick={handleImgClick}
                         >
-                            {/* <div className="overlay">
-                                {/* <Icon className="fas fa-external-link-alt" style={{color: 'white'}}/> 
-                                <h3>Click to visit site!</h3>
-                            </div> */}
                             <img className={`${classes.image}`} src={props.img} alt={props.altImg}/>
                             
                         </div>
                 </div>
 
                 <div className={`${classes.descCont}`}>
-                    <h1 className={`${classes.title} ${classes.header}`}><b>{props.projectTitle}</b></h1>
+                <h1 className={`${classes.title} ${classes.header}`}><b><a href={props.link} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: '#3b79cd'}}>{props.projectTitle}</a></b></h1>
                     <h4 className={`${classes.date} ${classes.header}`}>{props.orgTitle},  <em>{props.date}</em></h4>
                     <p className={`${classes.description} ${classes.header}`}>{props.description}</p>
                 </div>
@@ -108,17 +100,13 @@ function Project(props){
                             className={`${classes.imgCont}`}
                             onClick={handleImgClick}
                         >
-                            {/* <div className="overlay">
-                                {/* <Icon className="fas fa-external-link-alt" style={{color: 'white'}}/> 
-                                <h3>Click to visit site!</h3>
-                            </div> */}
                             <img className={`${classes.image}`} src={props.img} alt={props.altImg}/>
                             
                         </div>
                 </div>
 
                 <div className={`${classes.descCont}`}>
-                    <h1 className={`${classes.title} ${classes.header}`}><b><a href={props.link} target="_blank" style={{textDecoration: 'none', color: '#3b79cd'}}>{props.projectTitle}</a></b></h1>
+                    <h1 className={`${classes.title} ${classes.header}`}><b><a href={props.link} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none', color: '#3b79cd'}}>{props.projectTitle}</a></b></h1>
                     <h4 className={`${classes.date} ${classes.header}`}>{props.orgTitle},  <em>{props.date}</em></h4>
                     <h4 className={`${classes.skills} ${classes.header}`}><b>Skills:</b> {props.skills}</h4>
                     <p className={`${classes.description} ${classes.header}`}>{props.description}</p>
