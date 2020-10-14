@@ -30,20 +30,28 @@ const useStyles = makeStyles({
   //LANDING STYLES
   introPanel:{
     width: '100%',
-    display: 'block',
+  },
+  introFlex:{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   introText:{
-    marginLeft: '14rem',
-    marginTop: '10rem',
-    marginBottom: '19rem',
-    width: '70%',
+    marginTop: '10%',
     display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '70%',
+    marginBottom: '19rem',
   },
   headshot:{
     height: '12rem',
     marginLeft: '2rem',
     borderRadius: '3px',
     boxShadow: '10px, 10px, 5px, lightgrey',
+    ['@media (max-width:700px)']: { 
+      display: 'none',
+    }
   },
   projectsPanel: {
     width: '100%',
@@ -93,15 +101,17 @@ function Main(){
         duration={3}
       >
         
+        <div className={`${classes.introFlex}`}>
         <div id="intro-text" className={`${classes.introText}`}>
         {/* <img className={`${classes.headshot}`} src={headshot}/> */}
-          <div style={{marginRight: '3rem'}}>
+          <div>
           <h1 id='intro-text-name'>Hey! I'm Jordan</h1>
           <h1 id='intro-text-bio'>I am a software engineer and classical saxophonist, currently pursuing a double major at the University of Michigan. </h1>
           </div>
           <div>
           <img className={`${classes.headshot}`} src={headshot} alt={"headshot"}/>
           </div>
+        </div>
         </div>
 
       </ScrollAnimation>
@@ -133,7 +143,7 @@ function Main(){
           date={"Summer 2020"}
           img={acea}
           altImg={'ACEA My CE Webapp'}
-          description={<p style={{lineHeight: '1.5rem'}}>In the midst of the global pandemic, I was lucky enough to find a role at the Advanced Continuing Education Association(ACEA) as part of their web development team. It was a largely self-guided and self-directed internship in which I learned about React.JS, Java(Spring MVC), and helped launch products directly to ACEA’s customers.<br /> <br />My internship culminated with the completion of a continuing education filtering system that allows superadmins to selectively display continuing education opportunities depending on user preferences and license type(s).</p>}
+          description={<p style={{lineHeight: '1.5rem'}}>In the midst of the global pandemic, I was lucky enough to find a role at the Advanced Continuing Education Association(ACEA) as part of their web development team. It was a largely self-directed internship in which I learned about React.JS, Java(Spring MVC), and helped launch products directly to ACEA’s customers.<br /> <br />My internship culminated with the completion of a continuing education filtering system that allows superadmins to selectively display continuing education opportunities depending on user preferences and license type(s).</p>}
         />  
       </ScrollAnimation>
       <ScrollAnimation 
@@ -150,7 +160,7 @@ function Main(){
         date={"Winter Semester 2020"}
         img={orgadmin}
         altImg={'Club Management Image Link'}
-        description={<p style={{lineHeight: '1.5rem'}}>The OrgAdmin+ website is an application that gives clubs at U of M the ability to recruit, monitor attendance, send tasks out to members, and track membership data across semesters. I was the engineering lead for a team that worked on the backend of the website's pages, using PHP and SQL Queries to dynamically display information from the database. <br /> <br /> As the project moved online with the cancellation of in person classes, I took a leadership role that would lead to me officially joining the OTC core leadership as the club’s Project Manager.</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>The OrgAdmin+ website gives clubs at U of M the ability to recruit, monitor attendance, send tasks out to members, and track membership data across semesters. I was the Engineering Lead for a team that worked on the backend of the website's pages, using PHP and SQL Queries to dynamically display information from the database. <br /> <br /> As the project moved online with the cancellation of in person classes, I joined the OTC core leadership as the club’s Project Manager.</p>}
       />
       </ScrollAnimation>
 
@@ -168,7 +178,7 @@ function Main(){
         date={"Winter 2020"}
         img={tsp}
         altImg={'TSP Image'}
-        description={<p style={{lineHeight: '1.5rem'}}>Algorithms and Data Structures(EECS 281) has been the most intellectually fulfilling and enjoyable class I have taken at Michigan. For our final project in the class, we wrote an insertion heuristic, implemented as a branch and bound algorithm, to solve the TSP problem in O(n^2) time complexity. I used Minimum Spanning Trees created with Prim’s algorithm to create upper bounds on the cost of the solution, decreasing runtime. Unfortunately, we are not allowed to release any part of our final product that would violate the Engineering Honor Code.</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>As part of Algorithms and Data Structures(EECS 281), I wrote an insertion heuristic, implemented as a branch and bound algorithm, to solve the TSP problem in O(n^2) time complexity. I used Minimum Spanning Trees created with Prim’s algorithm to create upper bounds on the cost of the solution, decreasing runtime. Unfortunately, we are not allowed to release any part of our final product that would violate the Engineering Honor Code.</p>}
       />
       </ScrollAnimation>
 
@@ -186,7 +196,7 @@ function Main(){
         date={"Fall 2019"}
         img={piazza}
         altImg={'Machine Learning Piazza Post Identifier'}
-        description={<p style={{lineHeight: '1.5rem'}}>In a previous class, EECS 280, I implemented a Baye's classifier that predicted the topic of a Piazza post to the EECS 280 Piazza page. This Baye's classifier used a Bag of Words technique, where during the training of the algorithm words associated with different topics from the training data are counted, and the algorithm determines what the "Best Fit" topic is most likely to be. Unfortunately, we are not allowed to release any part of our final product that would violate the Engineering Honor Code.</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>In Programming and Intro Data Structures(EECS 280), I implemented a Baye's classifier that predicts the topic of a Piazza post to the EECS 280 Piazza page. This Baye's classifier uses a Bag of Words technique, where the algorithm determines what the "Best Fit" topic is most likely to be based on the frequnecy of word association with a given topic from the training data. Unfortunately, we are not allowed to release any part of our final product that would violate the Engineering Honor Code.</p>}
       />
       </ScrollAnimation>
 
@@ -222,7 +232,7 @@ function Main(){
         date={"Fall 2018 - Spring 2022"}
         img={uofm}
         altImg={'University of Michigan Image'}
-        description={<p style={{lineHeight: '1.5rem'}}>As a double major in Computer Science and Saxophone Performance at the University of Michigan, now in my Junior year, I have been exposed to innumerable opportunities to collaborate with driven and ambitious students. I am extremely grateful for all of the exposure I have had to world class education and instruction and I am looking forward to the experiences and opportunities of my last two years here!</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>As a double major in Computer Science and Saxophone Performance at the University of Michigan, now in my Junior year, I have been exposed to innumerable opportunities to collaborate with other ambitious students. I am extremely grateful for all of the exposure I have had to world class education and instruction and I am looking forward to the experiences and opportunities of my last two years here!</p>}
       />
       </ScrollAnimation>
 

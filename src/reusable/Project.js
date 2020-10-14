@@ -16,6 +16,11 @@ const useStyles = makeStyles({
         display: 'inline-block',
         width: '40%',
         float: 'left',
+        ['@media (max-width:700px)']: { 
+            opacity: '0',
+            width: '20rem',
+            height: '20rem',
+        }
     },
     imgCont:{
         width: '100%',
