@@ -256,9 +256,9 @@ function Main(){
       <div className="video-container">
 
         <Video 
-          url="https://youtu.be/ND51VVG9ruY"
-          title="Sonate en ut# pour saxophone alto - Movement III, Fernande Decruck"
-          artists="Jordan Savage, Polina Khatsko"
+          url="https://youtu.be/jTO6IB5pahk"
+          title="Above(2013), Matthew Levy"
+          artists="Jordan Savage, Philip Kleutgans, Roberto Campa, Jason Frazier"
         />
 
         <Video 
@@ -267,11 +267,11 @@ function Main(){
           artists="Jordan Savage, Brian Kachur, Matt Fox, Dylan Hong"
         />
 
-        <Video 
+        {/* <Video 
           url="https://youtu.be/MIuRyLY1KDY"
           title="Italian Concerto - Movement III, J.S. Bach"
           artists="Jordan Savage, Philip Kleutgens, Jason Frazier, Alex Gurchinoff"
-        />
+        /> */}
       </div>
 
       <h1 className="smaller-panel-title" style={{textAlign: 'center', paddingTop: '1rem',color: '#3b79cd', fontWeight: 'bold'}}>Stay tuned for an upcoming recording project with my group, Eros Quartet!</h1>
