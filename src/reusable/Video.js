@@ -12,9 +12,12 @@ const useStyles = makeStyles({
         flexDirection: 'column',
         whiteSpace: 'nowrap',
         margin: '2rem',
+        ['@media (max-width:700px)']: { 
+            display: 'inline-block',
+            
+        }
     },
     videoCont: {
-        display: 'inline-block',
         transition: 'all 0.3s',
         '&:hover':{
             webkitTransform: 'scale(1.005)',
@@ -27,6 +30,9 @@ const useStyles = makeStyles({
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
+        ['@media (max-width:700px)']: { 
+            display: 'inline-block',
+        }
     },
     videoTitle: {
         fontSize: '1.5rem',
@@ -54,6 +60,8 @@ function Video(props){
             <div className={`${classes.videoCont}`}>
                 <ReactPlayer
                     url={props.url}
+                    width="540px"
+                    height="300px"
                 />
             </div>
         </div>

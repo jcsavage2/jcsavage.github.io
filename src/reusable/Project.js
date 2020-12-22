@@ -11,15 +11,20 @@ const useStyles = makeStyles({
     container:{
         padding: '1.5rem',
         width: '60rem',
+        ['@media (max-width:700px)']: { 
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            marginLeft: '0rem',
+        }
     },
     leftContainer:{
         display: 'inline-block',
         width: '40%',
         float: 'left',
         ['@media (max-width:700px)']: { 
-            opacity: '0',
-            width: '20rem',
-            height: '20rem',
+            display: "none",
         }
     },
     imgCont:{
@@ -30,6 +35,10 @@ const useStyles = makeStyles({
         width: '50%',
         display: 'inline-block',
         marginLeft: '3rem',
+        ['@media (max-width:700px)']: { 
+            width: '45%',
+            marginLeft: '0rem',
+        }
     },
     image:{
         width: '100%',
@@ -48,6 +57,7 @@ const useStyles = makeStyles({
         marginTop: '1rem',
         fontWeight: '',
         fontSize: '1rem',
+        
     },
     title:{
         marginBottom: '.75rem',

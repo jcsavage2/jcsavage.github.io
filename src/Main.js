@@ -245,7 +245,7 @@ function Main(){
         animateOnce={true}
         duration={.5}
       >
-      <h1 className="panel-title" style={{textAlign: 'center', paddingTop: '5rem'}}>— Check out some of my music! —</h1>
+      <h1 className="panel-title long-title" style={{textAlign: 'center', paddingTop: '5rem'}}>— Check out some of my music! —</h1>
       </ScrollAnimation>
 
       <ScrollAnimation 
@@ -255,8 +255,15 @@ function Main(){
       >
       <div className="video-container">
 
+        <Video
+          url="https://www.youtube.com/watch?v=-hv4-83Zqiw"
+          title="Aus Holberg Zeit - I. Praeludium, Edvard Grieg"
+          artists="Jordan Savage, Philip Kleutgans, Roberto Campa, Jason Frazier"
+
+        />
+
         <Video 
-          url="https://youtu.be/jTO6IB5pahk"
+          url="https://www.youtube.com/watch?v=MvkRA_-CULE"
           title="Above(2013), Matthew Levy"
           artists="Jordan Savage, Philip Kleutgans, Roberto Campa, Jason Frazier"
         />
@@ -266,15 +273,8 @@ function Main(){
           title="The Mechanics - Drive Train, Carter Pann"
           artists="Jordan Savage, Brian Kachur, Matt Fox, Dylan Hong"
         />
-
-        {/* <Video 
-          url="https://youtu.be/MIuRyLY1KDY"
-          title="Italian Concerto - Movement III, J.S. Bach"
-          artists="Jordan Savage, Philip Kleutgens, Jason Frazier, Alex Gurchinoff"
-        /> */}
       </div>
 
-      <h1 className="smaller-panel-title" style={{textAlign: 'center', paddingTop: '1rem',color: '#3b79cd', fontWeight: 'bold'}}>Stay tuned for an upcoming recording project with my group, Eros Quartet!</h1>
       </ScrollAnimation>
 
 
