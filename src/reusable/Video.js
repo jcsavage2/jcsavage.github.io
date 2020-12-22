@@ -60,8 +60,8 @@ function Video(props){
             <div className={`${classes.videoCont}`}>
                 <ReactPlayer
                     url={props.url}
-                    width="540px"
-                    height="300px"
+                    // width="540px"
+                    // height="300px"
                 />
             </div>
         </div>

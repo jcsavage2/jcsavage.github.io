@@ -49,9 +49,6 @@ const useStyles = makeStyles({
     marginLeft: '2rem',
     borderRadius: '3px',
     boxShadow: '10px, 10px, 5px, lightgrey',
-    ['@media (max-width:700px)']: { 
-      display: 'none',
-    }
   },
   projectsPanel: {
     width: '100%',
@@ -105,7 +102,7 @@ function Main(){
         <div id="intro-text" className={`${classes.introText}`}>
         {/* <img className={`${classes.headshot}`} src={headshot}/> */}
           <div>
-          <h1 id='intro-text-name'>Hey! I'm Jordan test</h1>
+          <h1 id='intro-text-name'>Hey! I'm Jordan</h1>
           <h1 id='intro-text-bio'>I am a software engineer and classical saxophonist, currently pursuing a double major at the University of Michigan. </h1>
           </div>
           <div>

@@ -6,8 +6,6 @@ body{
     padding: 0;
     color: black;
     background-color: #E3E2DF; 
-    display: flex;
-    justify-content: center;
 }
 
 #header-nav{

@@ -36,7 +36,7 @@ const useStyles = makeStyles({
         display: 'inline-block',
         marginLeft: '3rem',
         ['@media (max-width:700px)']: { 
-            width: '45%',
+            width: '65%',
             marginLeft: '0rem',
         }
     },
