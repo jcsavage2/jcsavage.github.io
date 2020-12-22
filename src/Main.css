@@ -18,16 +18,16 @@ body{
     margin-top: 1rem;
     font-size: 4rem;
     font-weight: 350;
-
+    
 }
-/* @media (max-width:700px){ 
+@media (max-width:700px){ 
     #intro-text-name{
         font-size: 3.5rem;
     }
     #intro-text-bio{
         font-size: 1.5rem;
     }
-} */
+}
 
 #intro-text-bio{
     margin-left: 2rem;
@@ -127,7 +127,7 @@ body{
     filter: brightness(70%);
 }
 
-/* @media (max-width: 700px){
+@media (max-width: 700px){
     .panel-title{
         font-size: 2.7rem;
     }
@@ -137,7 +137,7 @@ body{
     .long-title{
         font-size: 2.5rem;
     }
-} */
+}
 .smaller-panel-title{
     margin: 0;
     font-size: 2rem;
