@@ -157,7 +157,7 @@ function Main(){
         date={"Winter Semester 2020"}
         img={orgadmin}
         altImg={'Club Management Image Link'}
-        description={<p style={{lineHeight: '1.5rem'}}>The OrgAdmin+ website gives clubs at U of M the ability to recruit, monitor attendance, send tasks out to members, and track membership data across semesters. I was the Engineering Lead for a team that worked on the backend of the website's pages, using PHP and SQL Queries to dynamically display information from the database. <br /> <br /> As the project moved online with the cancellation of in person classes, I joined the OTC core leadership as the club’s Project Manager.</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>The OrgAdmin+ website gives clubs at U of M the ability to recruit, monitor attendance, send tasks out to members, and track membership data across semesters. I was the Engineering Lead for a team that worked on the backend of the website's pages, using PHP and SQL Queries to dynamically display information from the database.</p>}
       />
       </ScrollAnimation>
 
@@ -211,7 +211,7 @@ function Main(){
         date={"Fall 2019 - Present"}
         img={otc}
         altImg={'One Team Coding Image'}
-        description={<p style={{lineHeight: '1.5rem'}}>When I joined One Team Coding for their first semester in Fall of 2019, I immediately began to enjoy the dynamic nature of working in a team when compared to the individual work of my previous class and personal projects. After multiple semesters as just a club member, I took on more leadership responsiblity as both an Engineering Team Lead and a Project Manager.<br /> <br /> Now, I plan development cycles, research and select technology stacks for projects, create onboarding processes for new club members every semester, and lead one of the five teams in their development scope for a project. One Team Coding has been one of the most rewarding experiences for me at University of Michigan.</p>}
+        description={<p style={{lineHeight: '1.5rem'}}>When I joined One Team Coding for their first semester in Fall of 2019, I immediately began to enjoy the dynamic nature of working in a team when compared to the individual work of my previous class and personal projects. After multiple semesters as just a club member, I took on more leadership responsiblity as both an Engineering Team Lead and a Project Manager.<br /> <br /> Now, I help plan development cycles, research and select technology stacks for projects, create onboarding processes for new club members every semester, and lead one of the five teams in their development scope for a project. One Team Coding has been one of the most rewarding experiences for me at University of Michigan.</p>}
       />  
       </ScrollAnimation>
       

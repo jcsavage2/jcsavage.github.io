@@ -19,10 +19,6 @@ const useStyles = makeStyles({
     },
     videoCont: {
         transition: 'all 0.3s',
-        '&:hover':{
-            webkitTransform: 'scale(1.005)',
-            transform: 'scale(1.005)',
-        },
     },
     videoDescCont: {
         width: '40%',
@@ -60,8 +56,6 @@ function Video(props){
             <div className={`${classes.videoCont}`}>
                 <ReactPlayer
                     url={props.url}
-                    // width="540px"
-                    // height="300px"
                 />
             </div>
         </div>
